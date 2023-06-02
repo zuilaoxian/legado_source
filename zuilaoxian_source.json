@@ -36,5 +36,52 @@
 		"bookSourceGroup": "醉老仙",
 		"searchUrl": "/dbvgdsijgbij.php?q={{key}}",
 		"enabled": true
-	}
+	},
+	{
+		"bookSourceGroup": "醉老仙",
+		"bookSourceName": "四桃小说www.4txs.com",
+		"bookSourceType": 0,
+		"bookSourceUrl": "https://www.4txs.com",
+		"customOrder": 0,
+		"enabled": true,
+		"enabledCookieJar": false,
+		"enabledExplore": false,
+		"header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n\t}",
+		"lastUpdateTime": 1685680871098,
+		"respondTime": 180000,
+		"ruleBookInfo": {
+			"author": "//div[@class='detail']/p[1]/a[1]/text()",
+			"coverUrl": ".detail .bookimg img@src",
+			"intro": ".content@html",
+			"kind": "//div[@class='detail']/p[1]/a[2]/text()",
+			"lastChapter": "//div[@class='detail']/p[4]/a/text()",
+			"name": "h1@text",
+			"tocUrl": ".bookimg@href",
+			"wordCount": "//div[@class='detail']/p[1]/text()[3]##字数："
+		},
+		"ruleContent": {
+			"content": "#content@html",
+			"nextContentUrl": "//a[text()=\"下一页【快捷键：→】\"]/@href"
+		},
+		"ruleExplore": {},
+		"ruleReview": {},
+		"ruleSearch": {
+			"author": ".author@text",
+			"bookList": ".library li",
+			"bookUrl": ".bookimg@href",
+			"coverUrl": ".bookimg img@src",
+			"intro": ".intro@html",
+			"kind": "//p[1]/a[2]/text()",
+			"lastChapter": "a.1@text",
+			"name": ".bookname@text",
+			"wordCount": "//p[1]/text()[2]"
+		},
+		"ruleToc": {
+			"chapterList": "//dl[2]/dd",
+			"chapterName": "a@text",
+			"chapterUrl": "a@href"
+		},
+		"searchUrl": "/search.html,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+		"weight": 0
+	},
 ]
