@@ -1,0 +1,40 @@
+[
+	{
+		"ruleSearch": {
+			"bookList": ".bookbox",
+			"name": ".bookname@text",
+			"author": ".author@text",
+			"kind": ".cat@text##分类：",
+			"wordCount": "",
+			"lastChapter": ".update a@text",
+			"intro": ".bookinfo p@text",
+			"coverUrl": ".bookimg img@src",
+			"bookUrl": ".bookimg a@href"
+		},
+		"ruleBookInfo": {
+			"name": "#info h1@text",
+			"author": "#info p.2@text",
+			"kind": "#info p.0@text##分类：",
+			"lastChapter": "#info p.5@text",
+			"intro": ".intro.1 p.0@text",
+			"coverUrl": "#fmimg img@src"
+		},
+		"ruleToc": {
+			"chapterList": ".listmain dd",
+			"chapterName": "a@text",
+			"chapterUrl": "a@href"
+		},
+		"ruleContent": {
+			"content": "#content@html",
+			"title": "h1@text"
+		},
+		"ruleReview": {},
+		"ruleExplore": {},
+		"bookSourceType": 0,
+		"bookSourceUrl": "http://www.bqg5200.net",
+		"bookSourceName": "笔趣阁www.bqg5200.net",
+		"bookSourceGroup": "醉老仙",
+		"searchUrl": "/dbvgdsijgbij.php?q={{key}}",
+		"enabled": true
+	}
+]
