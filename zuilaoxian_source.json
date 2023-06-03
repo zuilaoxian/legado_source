@@ -84,4 +84,37 @@
 		"searchUrl": "/search.html,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
 		"weight": 0
 	},
+	{
+		"ruleSearch": {
+			"bookList": ".result_ul li",
+			"name": ".result_title@text",
+			"author": ".result_time@text",
+			"intro": ".result_asset@text",
+			"bookUrl": ".result_title a@href"
+		},
+		"ruleBookInfo": {
+			"name": ".top h1@text",
+			"author": ".fix p.0@text",
+			"kind": ".xs-show.0@text##类 别：",
+			"coverUrl": ".imgbox img@src",
+			"intro": ".desc@html"
+		},
+		"ruleToc": {
+			"chapterList": ".book-item",
+			"chapterName": "a@text",
+			"chapterUrl": "a@href"
+		},
+		"ruleContent": {
+			"content": "#content@html##起点中文网[\\w\\W]*?m.qidian阅读。|<\\/a>;",
+			"title": ".title@text"
+		},
+		"ruleReview": {},
+		"ruleExplore": {},
+		"bookSourceType": 0,
+		"bookSourceUrl": "https://www.777zw.net",
+		"bookSourceName": "三七中文www.777zw.net",
+		"bookSourceGroup": "醉老仙",
+		"searchUrl": "https://www.12xs.top/book/{{key}}",
+		"bookSourceComment": "https://www.777zw.net\nhttps://www.777zw.org\nhttps://www.777zw.cc\nhttps://www.12zw.net"
+	}
 ]
