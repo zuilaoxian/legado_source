@@ -116,5 +116,109 @@
 		"bookSourceGroup": "醉老仙",
 		"searchUrl": "https://www.12xs.top/book/{{key}}",
 		"bookSourceComment": "https://www.777zw.net\nhttps://www.777zw.org\nhttps://www.777zw.cc\nhttps://www.12zw.net"
+	},
+	{
+		"bookSourceComment": "",
+		"bookSourceGroup": "醉老仙",
+		"bookSourceName": "奇书网www.qishuta.info",
+		"bookSourceType": 0,
+		"bookSourceUrl": "https://www.qishuta.info",
+		"bookUrlPattern": "",
+		"customOrder": 0,
+		"enabled": true,
+		"enabledCookieJar": false,
+		"enabledExplore": true,
+		"exploreUrl": "[{\"title\":\"奇幻玄幻\",\"url\":\"/soft/sort01/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/soft/sort02/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"女频言情\",\"url\":\"/soft/sort03/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"现代都市\",\"url\":\"/soft/sort04/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"历史军事\",\"url\":\"/soft/sort05/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/soft/sort06/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/soft/sort07/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"美文同人\",\"url\":\"/soft/sort08/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"剧本教程\",\"url\":\"/soft/sort09/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"名著杂志\",\"url\":\"/soft/sort010/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"技术其他\",\"url\":\"/soft/sort011/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"热门小说\",\"url\":\"/s/hot/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"推荐小说\",\"url\":\"/s/good/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_flexBasisPercent\":0.29}},{\"title\":\"最新小说\",\"url\":\"/s/new/index_{{page}}.html\",\"style\":{\"layout_flexGrow\":0,\"layout_flexBasisPercent\":0.29}}]",
+		"lastUpdateTime": 1667752186952,
+		"loginUrl": "",
+		"respondTime": 2699,
+		"ruleBookInfo": {
+			"author": ".small.5@text##书籍作者：",
+			"coverUrl": ".detail_pic img@src",
+			"init": "",
+			"intro": ".showInfo p@text",
+			"kind": ".position a.2@text",
+			"lastChapter": ".small.6 a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+			"name": ".detail_right h1@text##《|》|全集",
+			"tocUrl": ".showDown a.0@href"
+		},
+		"ruleContent": {
+			"content": "#content1@textNodes##声明.*正版.|欢迎广大书友.*"
+		},
+		"ruleExplore": {
+			"author": ".s@text##大小.*",
+			"bookList": ".listBox li",
+			"bookUrl": "tag.a.0@href",
+			"coverUrl": "tag.img.0@src",
+			"intro": "class.u@text",
+			"lastChapter": "tag.div.2@tag.a.0@text##最新章节：",
+			"name": "a@text##《|》.*"
+		},
+		"ruleSearch": {
+			"author": ".odd.1@text",
+			"bookList": ".grid@tr!0",
+			"bookUrl": ".even a@href",
+			"coverUrl": ".even@a.0@href<js>\nvar id = result.match(/(\\d+).html\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+			"lastChapter": ".odd.2@text",
+			"name": ".even a@text",
+			"kind": ""
+		},
+		"ruleToc": {
+			"chapterList": ".pc_list li",
+			"chapterName": "a@text",
+			"chapterUrl": "a@href"
+		},
+		"searchUrl": "/search.html?searchkey={{key}}",
+		"weight": 0
+	},
+	{
+		"bookSourceGroup": "醉老仙",
+		"bookSourceName": "我书网www.woshucheng.com",
+		"bookSourceType": 0,
+		"bookSourceUrl": "https://www.woshucheng.com",
+		"customOrder": 0,
+		"enabled": true,
+		"enabledCookieJar": true,
+		"enabledExplore": true,
+		"exploreUrl": "玄幻::/fenlei/1/{{page}}/\n奇幻::/fenlei/2/{{page}}/\n武侠::/fenlei/3/{{page}}/\n仙侠::/fenlei/4/{{page}}/\n都市::/fenlei/5/{{page}}/\n军事::/fenlei/6/{{page}}/\n历史::/fenlei/7/{{page}}/\n游戏::/fenlei/8/{{page}}/\n竞技::/fenlei/9/{{page}}/\n科幻::/fenlei/10/{{page}}/\n悬疑::/fenlei/11/{{page}}/\n灵异::/fenlei/12/{{page}}/\n其他::/fenlei/13/{{page}}/\n古代::/fenlei/14/{{page}}/\n仙侠::/fenlei/15/{{page}}/\n现代::/fenlei/16/{{page}}/\n浪漫::/fenlei/17/{{page}}/\n玄幻::/fenlei/18/{{page}}/\n悬疑::/fenlei/19/{{page}}/\n科幻::/fenlei/20/{{page}}/\n游戏::/fenlei/21/{{page}}/\nBL::/fenlei/22/{{page}}/\nGL::/fenlei/23/{{page}}/\n二次::/fenlei/24/{{page}}/",
+		"lastUpdateTime": 1685935764031,
+		"respondTime": 180000,
+		"ruleBookInfo": {
+			"author": ".fix a.0@text",
+			"coverUrl": ".imgbox img@src",
+			"intro": ".desc@text",
+			"kind": ".layout-tit a.1@text",
+			"name": ".top@text"
+		},
+		"ruleContent": {
+			"content": "#content@html##【我的书城】.*?永不丢失！|jingwubook\\.com|2023txt\\.com",
+			"title": ".title@text"
+		},
+		"ruleExplore": {
+			"author": ".s4@text",
+			"bookList": ".txt-list.0@li!0",
+			"bookUrl": ".s2 a@href",
+			"coverUrl": ".s2 a@href<js>\nvar id = result.match(/book_(\\d+)\\//)[1];\nvar iid = parseInt(id/1000);\n'/images/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+			"lastChapter": ".s3@text",
+			"name": ".s2@text",
+			"kind": ".s1@text"
+		},
+		"ruleReview": {},
+		"ruleSearch": {
+			"author": ".s4@text",
+			"bookList": ".txt-list.0@li!0",
+			"bookUrl": ".s2 a@href",
+			"coverUrl": ".s2 a@href<js>\nvar id = result.match(/book_(\\d+)\\//)[1];\nvar iid = parseInt(id/1000);\n'/images/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+			"kind": ".s1@text##\\[|\\]",
+			"lastChapter": ".s3@text",
+			"name": ".s2@text"
+		},
+		"ruleToc": {
+			"chapterList": ".section-list.1@li",
+			"chapterName": "a@text",
+			"chapterUrl": "a@href"
+		},
+		"searchUrl": "/search/,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&Submit=搜索\"\n}",
+		"weight": 0
 	}
 ]
