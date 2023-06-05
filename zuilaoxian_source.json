@@ -220,5 +220,132 @@
 		},
 		"searchUrl": "/search/,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&Submit=搜索\"\n}",
 		"weight": 0
+	},
+	{
+		"bookSourceGroup": "醉老仙",
+		"bookSourceName": "燃文小说www.ygshu.com",
+		"bookSourceType": 0,
+		"bookSourceUrl": "https://www.ygshu.com",
+		"customOrder": 0,
+		"enabled": true,
+		"enabledCookieJar": true,
+		"enabledExplore": false,
+		"lastUpdateTime": 1685967368197,
+		"respondTime": 180000,
+		"ruleBookInfo": {
+			"author": "#info@p.2@text",
+			"coverUrl": "#fmimg@img@src",
+			"intro": "#intro@p.0@text",
+			"kind": "#info@p.0@text##分类：",
+			"lastChapter": "#info@p.4@a@text",
+			"name": "#info@h1@text"
+		},
+		"ruleContent": {
+			"content": "#content@html",
+			"title": "h1@text"
+		},
+		"ruleExplore": {},
+		"ruleReview": {},
+		"ruleSearch": {
+			"author": ".author@text",
+			"bookList": ".bookbox@.p10",
+			"bookUrl": ".bookname@a@href",
+			"coverUrl": ".bookimg@img@src",
+			"intro": ".bookinfo@p@text",
+			"kind": ".cat@text##分类：",
+			"lastChapter": ".update@a@text",
+			"name": ".bookname@text"
+		},
+		"ruleToc": {
+			"chapterList": ".listmain@dl@dd",
+			"chapterName": "a@text",
+			"chapterUrl": "a@href"
+		},
+		"searchUrl": "/dfhgdfihio.php?ie=gbk&q={{key}},{\"charset\": \"gbk\"}",
+		"weight": 0
+	},
+	{
+		"bookSourceGroup": "醉老仙",
+		"bookSourceName": "何以笙箫默www.yetianlian.org",
+		"bookSourceType": 0,
+		"bookSourceUrl": "http://www.yetianlian.org",
+		"customOrder": 0,
+		"enabled": true,
+		"enabledCookieJar": true,
+		"enabledExplore": false,
+		"lastUpdateTime": 1685967428143,
+		"respondTime": 180000,
+		"ruleBookInfo": {
+			"author": ".info@.small@span.0@text",
+			"coverUrl": ".cover@img@src",
+			"intro": ".intro@text##无弹窗推荐地址.*",
+			"kind": ".info@.small@span.1@text##分类：",
+			"lastChapter": ".last.1@a@text",
+			"name": ".info@h2@text"
+		},
+		"ruleContent": {
+			"content": "#content@html##http:\\/\\/www\\.yetianlian.*?html|请记住本书.*?m\\.yetianlian\\.org|新书上传，希望.*?号。",
+			"title": "h1@text"
+		},
+		"ruleExplore": {},
+		"ruleReview": {},
+		"ruleSearch": {
+			"author": ".author@text",
+			"bookList": ".bookbox@.p10",
+			"bookUrl": ".bookname@a@href",
+			"coverUrl": ".bookimg@img@src",
+			"intro": ".bookinfo@p@text",
+			"kind": ".cat@text##分类：",
+			"lastChapter": ".update@a@text",
+			"name": ".bookname@text"
+		},
+		"ruleToc": {
+			"chapterList": ".listmain@dl@dd",
+			"chapterName": "a@text",
+			"chapterUrl": "a@href"
+		},
+		"searchUrl": "/s.php?ie=utf-8&q={{key}}",
+		"weight": 0
+	},
+	{
+		"bookSourceGroup": "醉老仙",
+		"bookSourceName": "妙笔读www.mbidu6.com",
+		"bookSourceType": 0,
+		"bookSourceUrl": "http://www.mbidu6.com",
+		"customOrder": 0,
+		"enabled": true,
+		"enabledCookieJar": true,
+		"enabledExplore": false,
+		"lastUpdateTime": 0,
+		"respondTime": 180000,
+		"ruleBookInfo": {
+			"name": ".rt@h1@text",
+			"author": ".msg@em.0@a@text",
+			"lastChapter": ".msg@em.4@a@text",
+			"intro": ".intro@p.0@text",
+			"coverUrl": ".lf@img@src",
+			"kind": ".place@a.1@text"
+		},
+		"ruleContent": {
+			"content": "#chaptercontent@html"
+		},
+		"ruleExplore": {},
+		"ruleReview": {},
+		"ruleSearch": {
+			"author": ".block_txt@p.2@text",
+			"bookList": ".ops_cover@.block",
+			"bookUrl": ".block_txt@h2@a@href",
+			"coverUrl": ".block_img@a@img@src",
+			"intro": ".block_txt@p.4@text",
+			"kind": ".block_txt@p.3@text##类型：",
+			"name": ".block_txt@h2@text"
+		},
+		"ruleToc": {
+			"chapterList": ".mulu@ul@li",
+			"chapterName": "a@text",
+			"chapterUrl": "a@href##.html##_8.html"
+		},
+		"searchUrl": "/search/result.html?searchkey={{key}}&page={{page}}",
+		"weight": 0
 	}
 ]
